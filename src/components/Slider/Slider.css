@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: auto;
+    height: auto;
+    background: var(--primary-15, linear-gradient(0deg, rgba(255, 255, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%), #A4BC46);
+}
+
+.header {
+    display: flex;
+    padding: 0 5%;
+}
+
+.header .left-side  {
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.header .right-side {
+    justify-content: space-between;
+}
+
+.right-side img {
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}

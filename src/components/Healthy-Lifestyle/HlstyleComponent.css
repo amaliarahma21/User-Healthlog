@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Urbanist&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.healthy-lifestyle-component {
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 1px 18px 0px rgba(31, 32, 28, 0.12);
+    border-radius: 15px;
+}

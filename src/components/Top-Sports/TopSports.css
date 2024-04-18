@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box-4 {
+    padding: 0 5%;
+    margin-top: 80px;
+    
+}
+
+.box-4 .p1{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27.11px;
+    color: #04726C;
+    margin-top: 50px;
+}
+
+.text-bc2 {
+    display: flex;
+}
+
+.text-bc2 h3 {
+    font-family: "Lily Script One", sans-serif;
+    color: #04726C;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-bc2 p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 225.15px;
+}                   
+
+.box-container4 {
+    display: flex;
+    margin-top: 20px;
+    gap: 70px;
+}
+
+.box-6 {
+    width: 350px;
+    height: 270px;
+    padding: 30px;
+    gap: 10px;
+    background-color: #04726C;
+    border: 1px solid #ebebeb;
+}
+
+.box6-t1 {
+    display: flex;
+    gap: 15px;
+}
+
+.box6-t1 h5 {
+    margin-top: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+
+}
+
+.box6-t1 i  {
+    width: 64px;
+    height: 64px;
+    color: #ffffff;
+}
+
+.box6-t2 {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #ffffff;
+}
+
+.box6-a {
+    color: #ffffff;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.box-7 {
+    width: 350px;
+    height: 270px;
+    padding: 30px;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+}
+
+.box7-t1 {
+    display: flex;
+    gap: 15px;
+}
+
+.box7-t1 h5 {
+    margin-top: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: black;
+
+}
+
+.box7-t1 i  {
+    width: 64px;
+    height: 64px;
+    color: #ffffff;
+}
+
+.box7-t2 {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: black;
+}
+
+.box7-a {
+    color: #04726C;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.box-8 {
+    width: 350px;
+    height: 270px;
+    padding: 30px;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid #ebebeb;
+}
+
+.box8-t1 {
+    display: flex;
+    gap: 15px;
+}
+
+.box8-t1 h5 {
+    margin-top: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: black;
+
+}
+
+.box8-t1 i  {
+    width: 64px;
+    height: 64px;
+    color: #ffffff;
+}
+
+.box8-t2 {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: black;
+}
+
+.box8-a {
+    color: #04726C;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.box-container5 {
+    display: flex;
+    margin-top: 20px;
+    gap: 70px;
+}
+
+.box-9 {
+    width: 350px;
+    height: 270px;
+    padding: 30px;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid #ebebeb;
+}
+
+.box9-t1 {
+    display: flex;
+    gap: 15px;
+}
+
+.box9-t1 h5 {
+    margin-top: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: black;
+
+}
+
+.box9-t1 i  {
+    width: 64px;
+    height: 64px;
+    color: #ffffff;
+}
+
+.box9-t2 {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: black;
+}
+
+.box9-a {
+    color: #04726C;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.box-10 {
+    width: 350px;
+    height: 270px;
+    padding: 30px;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid #ebebeb;
+}
+
+.box10-t1 {
+    display: flex;
+    gap: 15px;
+}
+
+.box10-t1 h5 {
+    margin-top: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: black;
+
+}
+
+.box10-t1 i  {
+    width: 64px;
+    height: 64px;
+    color: #ffffff;
+}
+
+.box10-t2 {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: black;
+}
+
+.box10-a {
+    color: #04726C;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.box-11 {
+    width: 350px;
+    height: 270px;
+    padding: 30px;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid #ebebeb;
+}
+
+.box11-t1 {
+    display: flex;
+    gap: 15px;
+}
+
+.box11-t1 h5 {
+    margin-top: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: black;
+
+}
+
+.box11-t1 i  {
+    width: 64px;
+    height: 64px;
+    color: #ffffff;
+}
+
+.box11-t2 {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: black;
+}
+
+.box11-a {
+    color: #04726C;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
