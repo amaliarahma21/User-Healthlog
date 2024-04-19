@@ -20,7 +20,7 @@ export default function Header() {
           </div>
         </div>
         <div className="all-categories">
-          <h5 className="home">Home</h5>
+          <h5 className="home"> Home  </h5>
         </div>
         <div className="nav-hs">
           <h5 className="title-hs">Health Statistic</h5>

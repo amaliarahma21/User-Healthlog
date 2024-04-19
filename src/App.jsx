@@ -3,6 +3,7 @@ import Index from "./pages/Index/Index"
 import Login from "./pages/Login/Login"
 import Header from "./components/Header/Header"
 import Register from "./pages/Register/Register"
+import HLifestyle from "./pages/Healthy-Lifestyle/HLifestyle"
 // import Shop from "./pages/Shop/Shop"
 // import Cart from "./pages/Cart/Cart"
 // import Wishlist from "./pages/Wishlist/Wishlist"
@@ -18,8 +19,8 @@ function App() {
       <Header/>
       <Routes>
         <Route exact path="/" Component={Index} />
-        {/* <Route path="/shop" Component={Shop} />
-        <Route path="/shop/detail-shop/:productId" Component={ProductDetail} />
+        <Route path="/healthylifestyle" Component={HLifestyle} />
+        {/* <Route path="/shop/detail-shop/:productId" Component={ProductDetail} />
 
         <Route path="/my-cart" Component={Cart} />
         <Route path="/my-wishlist" Component={Wishlist} /> */}

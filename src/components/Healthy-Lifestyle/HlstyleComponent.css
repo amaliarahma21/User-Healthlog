@@ -10,9 +10,103 @@
 .healthy-lifestyle-component {
     width: auto;
     height: auto;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    box-shadow: 0px 1px 18px 0px rgba(31, 32, 28, 0.12);
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* margin: auto; */
+    /* box-shadow: 0px 1px 18px 0px rgba(31, 32, 28, 0.12); */
+}
+
+ .container-judulhl {
+    width: 1000px;
+    height: 70px;
+    background-color: #04726C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; /* Menengahkan secara horizontal */
+    align-items: center; /* Menengahkan secara vertikal */
+    margin: 0 auto; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.healthy-lifestyle-component .container-judulhl h3 {
+    font-family: "Lily Script One", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;    
+}
+
+.saran1 {
+    display: flex;
+    padding: 0 5%;
+    margin-bottom: 50px;
+}
+
+.saran1 .image-saran1 {
+    width: 700px;
+    height: 250px;
+    background-color: #04726C;
     border-radius: 15px;
+}
+
+.saran1 .text-saran1 {
+    font-family: "Jost", sans-serif;
+    margin-left: 90px;
+}
+
+.saran2 {
+    display: flex;
+    padding: 0 5%;
+    margin-bottom: 50px;
+}
+
+.saran2 .image-saran2 {
+    width: 700px;
+    height: 250px;
+    background-color: #04726C;
+    border-radius: 15px;
+    margin-left: 90px;
+}
+
+.saran2 .text-saran2 {
+    font-family: "Jost", sans-serif;
+    
+}
+
+.saran3 {
+    display: flex;
+    padding: 0 5%;
+    margin-bottom: 50px;
+}
+
+.saran3 .image-saran3 {
+    width: 700px;
+    height: 250px;
+    background-color: #04726C;
+    border-radius: 15px;
+}
+
+.saran3 .text-saran3 {
+    font-family: "Jost", sans-serif;
+    margin-left: 90px;
+}
+
+.saran4 {
+    display: flex;
+    padding: 0 5%;
+    margin-bottom: 50px;
+}
+
+.saran4 .image-saran4 {
+    width: 700px;
+    height: 250px;
+    background-color: #04726C;
+    border-radius: 15px;
+    margin-left: 90px;
+    
+}
+
+.saran4 .text-saran4 {
+    font-family: "Jost", sans-serif;
+    
 }
