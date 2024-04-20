@@ -17,25 +17,31 @@ export default function HlstyleComponent() {
             </div>
             <div className="saran2">
                 <div className="text-saran2">
-                    <h3>Berat Badan Linda</h3>
+                    <h3>Permasalahan Tinggi Badan</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, voluptatum exercitationem. Molestiae facilis, fugiat architecto sit nihil in, veniam adipisci dicta vitae optio omnis eum commodi quia quasi provident labore.</p>
                 </div>
-                <div className="image-saran2"></div>
+                <div className="image-saran2">
+                    <img src="public/img-product/tinggi-badan.png" alt="" />
+                </div>
             </div>
             <div className="saran3">
-            <div className="image-saran3"></div>
+            <div className="image-saran3">
+                <img src="public/img-product/kurus.jpg" alt="" />
+            </div>
                 <div className="text-saran3">
-                    <h3>Berat Badan Linda</h3>
+                    <h3>Kekurangan Berat Badan</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, voluptatum exercitationem. Molestiae facilis, fugiat architecto sit nihil in, veniam adipisci dicta vitae optio omnis eum commodi quia quasi provident labore.</p>
                 </div>
             </div>
-            <div className="saran4">
+            {/* <div className="saran4">
                 <div className="text-saran4">
                     <h3>Berat Badan Linda</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, voluptatum exercitationem. Molestiae facilis, fugiat architecto sit nihil in, veniam adipisci dicta vitae optio omnis eum commodi quia quasi provident labore.</p>
                 </div>
-                <div className="image-saran4"></div>
-            </div>
+                <div className="image-saran4">
+                    <img src="public/img-product/gendut.png" alt="" />
+                </div>
+            </div> */}
         </div>
     )
 }

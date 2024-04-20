@@ -49,6 +49,12 @@
     border-radius: 15px;
 }
 
+.saran1 .image-saran1 img {
+    width: 700px;
+    height: 250px;
+    border-radius: 15px;
+}
+
 .saran1 .text-saran1 {
     font-family: "Jost", sans-serif;
     margin-left: 90px;
@@ -68,6 +74,12 @@
     margin-left: 90px;
 }
 
+.saran2 .image-saran2 img {
+    width: 700px;
+    height: 250px;
+    border-radius: 15px;
+}
+
 .saran2 .text-saran2 {
     font-family: "Jost", sans-serif;
     
@@ -83,6 +95,12 @@
     width: 700px;
     height: 250px;
     background-color: #04726C;
+    border-radius: 15px;
+}
+
+.saran3 .image-saran3 img {
+    width: 700px;
+    height: 250px;
     border-radius: 15px;
 }
 
