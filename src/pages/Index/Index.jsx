@@ -7,7 +7,7 @@ import TopSports from "../../components/Top-Sports/TopSports";
 export default function Index() {
     return (
         <div>
-            {/* <Header/> */}
+            <Header/>
             <Slider/>
             <Hlstyle/>
             <TopSports/>

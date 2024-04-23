@@ -6,13 +6,14 @@
 }
 
 .container-footer {
-    margin-top: 2rem;
+    margin-top: 5rem;
+    
 }
 
 .footer {
     display: flex;
     width: auto;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: flex-end;
 }
 

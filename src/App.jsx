@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Index from "./pages/Index/Index"
 import Login from "./pages/Login/Login"
-import Header from "./components/Header/Header"
+// import Header from "./components/Header/Header"
 import Register from "./pages/Register/Register"
 import HLifestyle from "./pages/Healthy-Lifestyle/HLifestyle"
+import FormHs from "./pages/Healthy-Statistic/FormHs"
 // import Shop from "./pages/Shop/Shop"
 // import Cart from "./pages/Cart/Cart"
 // import Wishlist from "./pages/Wishlist/Wishlist"
@@ -16,10 +17,11 @@ function App() {
 
   return (
     <Router>
-      <Header/>
+      {/* <Header/> */}
       <Routes>
         <Route exact path="/" Component={Index} />
         <Route path="/healthylifestyle" Component={HLifestyle} />
+        <Route path="/formhs" Component={FormHs}/>
         {/* <Route path="/shop/detail-shop/:productId" Component={ProductDetail} />
 
         <Route path="/my-cart" Component={Cart} />

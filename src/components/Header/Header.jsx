@@ -20,13 +20,13 @@ export default function Header() {
           </div>
         </div>
         <div className="all-categories">
-          <h5 className="home"> Home  </h5>
+          <Link to="/"><h5 className="home"> Home  </h5></Link>
         </div>
         <div className="nav-hs">
-          <h5 className="title-hs">Health Statistic</h5>
+          <Link to="/formhs"><h5 className="title-hs">BMI</h5></Link> 
         </div>
         <div className="nav-hl">
-          <h5 className="title-hl">Health Lyfestyle</h5>
+          <Link to="/healthylifestyle"><h5 className="title-hl">Health Lyfestyle</h5></Link>
         </div>
         <div className="nav-remind">
           <h5 className="title-remind">Reminders</h5>

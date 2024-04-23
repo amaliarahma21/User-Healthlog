@@ -1,9 +1,7 @@
 import { useNavigate } from "react-router-dom";
-// import Swal from 'sweetalert2';
-// import 'sweetalert2/dist/sweetalert2.css';
+import Swal from 'sweetalert2';
+import 'sweetalert2/dist/sweetalert2.css';
 import { Link } from "react-router-dom";
-// import 'swiper/css';
-// import { Pagination } from 'swiper/modules';
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -16,33 +14,42 @@ export default function Login() {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("http://10.10.9.158/auth/login", {
+      const response = await axios.post("http://10.10.9.158:3000/api/v1/auth/login", {
         username,
-        password,
+        password
       });
-
+  
       console.log("Login successful:", response.data);
-      setUsername("");
-      setPassword("");
-
+      setUsername(""); // Reset username
+      setPassword(""); // Reset password
+  
       localStorage.setItem("token", response.data.token);
-
-      navigate("/");
-      Swal.fire({
-        icon: "success",
-        title: '<span class="swal-title">Login Successful</span>',
-        text: "Welcome back!",
-      });
+  
+      // Check if response contains token (indicating successful login)
+      if (response.data.token) {
+        navigate('/');
+        Swal.fire({
+          icon: "success",
+          title: '<span class="swal-title">Login Successful</span>',
+          text: "Welcome back!",
+        });
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: '<span class="swal-title">Login Failed!</span>',
+          text: "Invalid username or password.",
+        });
+      }
     } catch (error) {
       console.log("Failed to login!", error);
       Swal.fire({
         icon: "error",
         title: '<span class="swal-title">Login Failed!</span>',
-        text: "Invalid email or password.",
+        text: "Invalid username or password.",
       });
     }
-    navigate.push('/slider')
   };
+  
 
   return (
     <div className="h-screen md:flex">
@@ -60,7 +67,6 @@ export default function Login() {
           <h1 className="text-gray-800 font-bold text-2xl mb-7 ">
             LogIn
           </h1>
-          {/* <p className="text-sm font-normal text-gray-600 mb-7">Welcome Back</p> */}
           <div className="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,6 +86,8 @@ export default function Login() {
               className="pl-2 outline-none border-none"
               type="text"
               placeholder="Username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
             />
           </div>
           <div className="flex items-center border-2 py-2 px-3 rounded-2xl">
@@ -97,13 +105,16 @@ export default function Login() {
             </svg>
             <input
               className="pl-2 outline-none border-none"
-              type="text"
+              type="password"
               placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
           </div>
           <button
-            type="submit"
-            className="block w-full bg-[#04726C] mt-4 py-2 rounded-2xl text-white font-semibold mb-2" onClick={handleLogin}
+            type="button"
+            className="block w-full bg-[#04726C] mt-4 py-2 rounded-2xl text-white font-semibold mb-2"
+            onClick={handleLogin}
           >
             Login
           </button>

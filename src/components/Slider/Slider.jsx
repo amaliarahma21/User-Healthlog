@@ -14,25 +14,26 @@ export default function Slider() {
       <div className="header">
         <div className="left-side">
           <div className="text1-leftside">
-          <h1>
-            Over a long period of work we have provided hundres of thoudansof
-            eye care services
-          </h1>
+            <h1>
+              Let's start caring for our bodies by maintaining our health because that is the most important thing.
+            </h1>
+            <br /> <br /> 
+            <p>
+              A healthy lifestyle encompasses a combination of habits that
+              promote physical, mental, and emotional well-being. It involves
+              adopting nutritious eating habits, engaging in regular physical
+              activity, managing stress effectively, prioritizing adequate
+              sleep, avoiding harmful substances like tobacco and excessive
+              alcohol, and fostering positive social connections. By embracing a
+              healthy lifestyle, individuals can enhance their quality of life,
+              reduce the risk of chronic diseases, and increase longevity,
+              ultimately leading to a happier and more fulfilling existence.
+            </p>
           </div>
-          <div className="text2-leftside">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            maiores ullam, laudantium explicabo consequatur accusantium commodi
-            cupiditate harum rem. Possimus esse voluptatibus ab aliquid a
-            repellat ipsum aperiam in quisquam?
-          </p>
-          </div>
-          
-          
         </div>
-        <div className="right-side">
+        {/* <div className="right-side">
           <img src="public/img-product/med2.jpg" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

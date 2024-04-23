@@ -2,6 +2,8 @@ import HlstyleComponent from "../../components/Healthy-Lifestyle/HlstyleComponen
 
 export default function HLifestyle() {
     return (
-        <HlstyleComponent />
+            <HlstyleComponent />
+        
+        
     )
 }
