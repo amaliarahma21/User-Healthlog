@@ -1,5 +1,6 @@
 import Header from "../Header/Header";
 import "./HlstyleComponent.css";
+import Footer from "../Footer/Footer";
 
 export default function HlstyleComponent() {
   return (
@@ -61,6 +62,7 @@ export default function HlstyleComponent() {
         </div>
     </div> */}
       </div>
+      <Footer /> 
     </>
   );
 }

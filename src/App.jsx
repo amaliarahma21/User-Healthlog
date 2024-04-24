@@ -5,6 +5,7 @@ import Login from "./pages/Login/Login"
 import Register from "./pages/Register/Register"
 import HLifestyle from "./pages/Healthy-Lifestyle/HLifestyle"
 import FormHs from "./pages/Healthy-Statistic/FormHs"
+import ResultPage from "./pages/Healthy-Statistic/ResultPage"
 // import Shop from "./pages/Shop/Shop"
 // import Cart from "./pages/Cart/Cart"
 // import Wishlist from "./pages/Wishlist/Wishlist"
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/" Component={Index} />
         <Route path="/healthylifestyle" Component={HLifestyle} />
         <Route path="/formhs" Component={FormHs}/>
+        <Route path="/resultpage" Component={ResultPage}/>
         {/* <Route path="/shop/detail-shop/:productId" Component={ProductDetail} />
 
         <Route path="/my-cart" Component={Cart} />
